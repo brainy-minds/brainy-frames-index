@@ -1,0 +1,21 @@
+packages:
+- depends_on:
+  - name: CellProfilerPelkmans
+    version: 1.0.0
+  - name: CellProfilerPelkmans
+    version: 1.0.0
+  name: iBRAIN
+  namespace: pelkmanslab
+  url: https://github.com/pelkmanslab/iBRAIN/archive/3.0.1.tar.gz
+  version: iBRAIN
+- depends_on:
+  - name: PelkmansLibrary
+    version: 1.0.0
+  name: CellProfilerPelkmans
+  namespace: pelkmanslab
+  url: https://github.com/pelkmanslab/CellProfilerPelkmans/archive/1.0.0.tar.gz
+  version: CellProfilerPelkmans
+- name: PelkmansLibrary
+  namespace: pelkmanslab
+  url: https://github.com/pelkmanslab/PelkmansLibrary/archive/1.0.0.tar.gz
+  version: PelkmansLibrary

@@ -1,0 +1,8 @@
+namespace: 'pelkmanslab'
+
+url: 'https://github.com/pelkmanslab/CellProfilerPelkmans/archive/1.0.0.tar.gz'
+
+depends_on:
+  - 
+    name: 'PelkmansLibrary'
+    version: '1.0.0'

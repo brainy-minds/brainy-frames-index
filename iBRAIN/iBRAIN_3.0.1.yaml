@@ -1,0 +1,16 @@
+# Keys like `name`, `version` are parsed from the file name.
+
+# Namespace of the package is parsed from URL if possible.
+# In case of the GITHUB workflow it corresponds to the project owner.
+# In this case namespace can be parsed from the github https url below.
+namespace: 'pelkmanslab'
+
+url: 'https://github.com/pelkmanslab/iBRAIN/archive/3.0.1.tar.gz'
+
+depends_on:
+  - 
+    name: 'CellProfilerPelkmans'
+    version: '1.0.0'
+  - 
+    name: 'CellProfilerPelkmans'
+    version: '1.0.0'
